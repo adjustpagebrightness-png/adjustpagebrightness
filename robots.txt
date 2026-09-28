@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adjustpagebrightness-png.github.io/adjustpagebrightness/sitemap.xml

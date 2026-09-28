@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Adjust Page Brightness - Dimly</title>
+<meta name="description" content="Privacy policy for the Adjust Page Brightness - Dimly Chrome extension: what data is collected (none), what's stored locally, and why each permission is requested.">
+<link rel="canonical" href="https://adjustpagebrightness-png.github.io/adjustpagebrightness/privacy.html">
+<link rel="icon" href="assets/icon.png">
+<meta name="robots" content="index, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Lora:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="site-nav">
+    <div class="brand"><img src="assets/icon.png" alt=""> Adjust Page Brightness</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:tabmanagerproo@gmail.com">Contact</a>
+    </div>
+  </nav>
+</div>
+
+<main class="policy">
+  <a class="back-link" href="index.html">← Back to home</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: September 23, 2026</p>
+
+  <p>Adjust Page Brightness - Dimly ("the extension") is built to work with as little data as possible. This page explains, in plain language, what the extension does and doesn't do with your information.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>We do not collect, sell, or transmit any of your personal data or browsing history.</li>
+    <li>All of your settings are stored locally in your browser, using Chrome's built-in storage.</li>
+    <li>If you enable sunrise/sunset auto mode, your location is used only on your own device to calculate sunrise and sunset times, and is never sent to us or to any third party.</li>
+    <li>The extension has no analytics, no advertising, and no external servers involved in its normal operation.</li>
+  </ul>
+
+  <h2>What's stored, and where</h2>
+  <p>The extension stores the following in Chrome's local storage on your own device, using the <code>storage</code> permission. None of it leaves your browser:</p>
+  <ul>
+    <li>Your brightness settings, both global and per-site</li>
+    <li>Auto Brightness and sunrise/sunset preferences</li>
+    <li>Night mode filter color</li>
+    <li>Usage statistics you generate by using the extension (which you can export or clear at any time)</li>
+    <li>Your coordinates, only if you turn on sunrise/sunset auto mode — used solely for the on-device sunrise/sunset calculation described below</li>
+  </ul>
+
+  <h2>Location data</h2>
+  <p>If you choose to enable the "Sunrise / sunset" auto mode, the extension asks your browser for a one-time location reading, using the standard <code>geolocation</code> Web API. That coordinate is:</p>
+  <ul>
+    <li>Used only to calculate today's sunrise and sunset time, with a public, offline astronomical formula (NOAA's solar position equations) that runs entirely on your device</li>
+    <li>Never sent to any server, including ours — there is no server in this feature at all</li>
+    <li>Stored locally so the extension can recompute the times once a day without asking again</li>
+  </ul>
+  <p>You can turn this off at any time by switching back to manual times in the popup, which also removes the stored coordinates from use.</p>
+
+  <h2>Permissions we request, and why</h2>
+  <table>
+    <tr><th>Permission</th><th>Why it's needed</th></tr>
+    <tr><td><code>storage</code></td><td>Save your brightness settings, site list, and preferences locally in your browser.</td></tr>
+    <tr><td><code>tabs</code></td><td>Detect the site you're on so per-site settings and the day/night schedule can be applied to the right tab.</td></tr>
+    <tr><td><code>commands</code></td><td>Power the optional keyboard shortcuts for adjusting brightness without opening the popup.</td></tr>
+    <tr><td><code>contextMenus</code></td><td>Add the right-click option to quickly add the current site to your managed list.</td></tr>
+    <tr><td><code>notifications</code></td><td>Show small, local confirmations for certain in-extension actions.</td></tr>
+    <tr><td><code>alarms</code></td><td>Recompute sunrise/sunset times once a day when auto mode is on, since they shift slightly every day.</td></tr>
+    <tr><td><code>geolocation</code></td><td>Read your coordinates once, on-device, to calculate sunrise/sunset — only requested if you turn this feature on. See "Location data" above.</td></tr>
+  </table>
+
+  <h2>Third-party services</h2>
+  <p>The extension does not use any third-party analytics, advertising, or tracking services. It makes no network requests as part of its normal operation — brightness control and sunrise/sunset calculations both happen entirely on your device.</p>
+
+  <h2>Children's privacy</h2>
+  <p>The extension is a general-purpose browser tool and does not knowingly collect any information from anyone, including children, because it does not collect information from anyone at all.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the "Last updated" date at the top of this page will be updated accordingly. Significant changes will also be noted in the extension's Chrome Web Store listing.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or the extension: <a href="mailto:tabmanagerproo@gmail.com">tabmanagerproo@gmail.com</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <div>© 2026 Adjust Page Brightness - Dimly</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:tabmanagerproo@gmail.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
